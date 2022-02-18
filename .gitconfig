@@ -1,6 +1,9 @@
 [core]
 	editor = nvim
-
+	autocrlf = true
 [user]
 	name = Daniel Levita
 	email = 71600818+danplevs@users.noreply.github.com
+
+[init]
+	defaultBranch = main
