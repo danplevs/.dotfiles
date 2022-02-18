@@ -1,0 +1,21 @@
+channels:
+  - conda-forge
+  - defaults
+channel_priority: strict
+create_default_packages:
+  - python
+  - pylint
+  - mypy
+  - black
+  - python-dotenv
+  - ipykernel
+  - notebook
+  - numpy
+  - openpyxl
+  - pandas
+  - matplotlib
+  - seaborn
+  - plotly
+  - python-kaleido
+changeps1: false
+auto_activate_base: false
