@@ -13,9 +13,6 @@ git clone https://github.com/danplevs/.dotfiles.git
 # Oh-my-posh and PowerShell modules
 . ./.dotfiles/install/modules.ps1
 
-# Pyenv
-. ./.dotfiles/install/pyenv.ps1
-
 # Pipx
 . ./.dotfiles/install/pipx.ps1
 
