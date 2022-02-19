@@ -6,7 +6,6 @@ if ($host.Name -eq 'ConsoleHost')
     Import-Module PSReadLine
 }
 Import-Module posh-git
-Import-Module oh-my-posh
 Import-Module Terminal-Icons
 
 # Oh-my-posh

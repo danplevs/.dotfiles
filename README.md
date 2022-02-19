@@ -3,12 +3,20 @@
 # Install scoop and some basic packages
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 scoop bucket add extras
-scoop install sudo neovim git gh fzf pyenv
+scoop bucket add nerd-fonts
+scoop install sudo neovim git posh-git gh fzf pyenv
+
+# Oh-my-posh
+scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
 
 git clone https://github.com/danplevs/.dotfiles.git
 
 # Chocolatey
 . ./.dotfiles/install/chocolatey.ps1
+
+# Terminal-Icons and Nerd Font
+choco install terminal-icons.powershell
+scoop install CascadiaCode-NF
 
 # Oh-my-posh and PowerShell modules
 . ./.dotfiles/install/modules.ps1
