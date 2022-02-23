@@ -17,6 +17,12 @@ $env:POSH_GIT_ENABLED = $true
 $env:PATH += ";$env:USERPROFILE\scoop\shims"
 $env:PSModulePath += ";$env:USERPROFILE\scoop\modules"
 
+# Chocolatey
+$ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+if (Test-Path($ChocolateyProfile)) {
+  Import-Module "$ChocolateyProfile"
+}
+
 # Conda
 (& "~/miniconda3/Scripts/conda.exe" "shell.powershell" "hook") | Out-String | Invoke-Expression
 $env:VIRTUAL_ENV_DISABLE_PROMPT = 1
