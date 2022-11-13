@@ -3,7 +3,7 @@ Set-Location $env:USERPROFILE/AppData/Roaming/Python/Python310/Scripts
 ./pipx ensurepath
 
 # Install packages
-$Packages = 'blue', 'isort', 'mkdocs', 'prospector', 'mypy', 'ipython', 'poetry', 'pytest', 'safety'
+$Packages = 'blue', 'isort', 'mkdocs', 'prospector', 'mypy', 'ipython', 'poetry', 'pytest', 'safety', 'cookiecutter'
 foreach ($Package in $Packages) {
     pipx install $Package
 }
