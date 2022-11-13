@@ -8,6 +8,7 @@ create_default_packages:
   - mypy
   - black
   - python-dotenv
+  - cookiecutter
   - ipykernel
   - notebook
   - numpy
