@@ -23,10 +23,6 @@ if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
 
-# Conda
-(& "~/miniconda3/Scripts/conda.exe" "shell.powershell" "hook") | Out-String | Invoke-Expression
-$env:VIRTUAL_ENV_DISABLE_PROMPT = 1
-
 # PSReadLine
 Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineOption -EditMode Windows
