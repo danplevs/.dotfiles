@@ -4,10 +4,17 @@
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 scoop bucket add extras
 scoop bucket add nerd-fonts
-scoop install sudo neovim git posh-git gh fzf pyenv make terminal-icons CascadiaCode-NF https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json psreadline psfzf
+scoop install sudo neovim git posh-git gh fzf make terminal-icons CascadiaCode-NF https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json psreadline psfzf
 
 # Pipx
 . ./.dotfiles/install/pipx.ps1
+
+# pyenv-win
+Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"
+
+# Poetry
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
+
 
 # Dotfiles
 git clone https://github.com/danplevs/.dotfiles.git
