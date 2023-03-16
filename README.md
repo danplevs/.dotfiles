@@ -2,9 +2,10 @@
 ``` powershell
 # Install scoop, basic packages, oh-my-posh and pwsh modules
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+scoop install git
 scoop bucket add extras
 scoop bucket add nerd-fonts
-scoop install sudo neovim git posh-git gh fzf make terminal-icons CascadiaCode-NF https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json psreadline psfzf
+scoop install sudo neovim posh-git gh fzf make terminal-icons CascadiaCode-NF https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json psreadline psfzf
 
 # Pipx
 . ./.dotfiles/install/pipx.ps1
