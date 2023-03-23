@@ -44,6 +44,7 @@ $env:GIT_SSH = "C:\Windows\system32\OpenSSH\ssh.exe"
 $env:PATH="$env:PATH;C:\Users\daniel\AppData\Roaming\Python\Scripts"
 
 # Alias
+Set-Alias sudo gsudo
 Set-Alias radian "~/miniconda3/envs/radian/Scripts/radian.exe"
 Set-Alias r radian
 Set-Alias vim nvim
