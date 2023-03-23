@@ -14,7 +14,7 @@ oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
 $env:POSH_GIT_ENABLED = $true
 
 # Conda
-(& "~/miniconda3/Scripts/conda.exe" "shell.powershell" "hook") | Out-String | Invoke-Expression
+# (& "~/miniconda3/Scripts/conda.exe" "shell.powershell" "hook") | Out-String | Invoke-Expression
 
 # Scoop
 $env:PATH += ";$env:USERPROFILE\scoop\shims"
