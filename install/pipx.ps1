@@ -6,7 +6,7 @@ Set-Location $env:USERPROFILE/AppData/Roaming/Python/Python311/Scripts
 pwsh
 
 # Install packages
-$Packages = 'blue', 'isort', 'prospector', 'ipython', 'pytest', 'safety', 'cookiecutter', 'conda-lock'
+$Packages = 'poetry', 'blue', 'isort', 'prospector', 'ipython', 'pytest', 'safety', 'cookiecutter', 'conda-lock'
 foreach ($Package in $Packages) {
     pipx install $Package
 }
