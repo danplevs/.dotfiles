@@ -20,6 +20,9 @@ Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv
 # Pipx
 . ./.dotfiles/install/pipx.ps1
 
+# Poetry fix pylint-flask installation
+poetry self update 1.4.1
+
 # Set powershell profile
 echo ". '$env:USERPROFILE/.dotfiles/powershell/profile.ps1'" > $profile
 
