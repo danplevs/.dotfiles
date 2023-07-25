@@ -14,7 +14,6 @@
           "background": "#21c7a8",
           "leading_diamond": "\u256d\u2500\ue0b6",
           "trailing_diamond": "\ue0b0",
-          "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}  ",
           "properties": {
             "windows": "\uf871"
           }
@@ -26,7 +25,6 @@
           "background": "#ef5350",
           "leading_diamond": "<transparent,#ef5350>\ue0b0</>",
           "trailing_diamond": "\ue0b0",
-          "template": " \uf0e7 ",
           "properties": {
             "root_icon": "\uf292 "
           }
@@ -38,7 +36,6 @@
           "background": "#82AAFF",
           "leading_diamond": "<transparent,#82AAFF>\ue0b0</>",
           "trailing_diamond": "\ue0b0",
-          "template": " {{ .Path }} ",
           "properties": {
             "folder_icon": "\uf07c ",
             "folder_separator_icon": " <#011627>\ue0b1</> ",
@@ -58,7 +55,6 @@
             "{{ if gt .Ahead 0 }}#21c7a8{{ end }}",
             "{{ if gt .Behind 0 }}#c792ea{{ end }}"
           ],
-          "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
           "properties": {
             "branch_icon": "\ue725 ",
             "fetch_stash_count": true,
@@ -74,7 +70,6 @@
           "background": "#575656",
           "leading_diamond": "<transparent,#575656>\ue0b0</>",
           "trailing_diamond": "\ue0b4",
-          "template": " {{ .FormattedMs }} ",
           "properties": {
             "style": "roundrock",
             "threshold": 0
@@ -92,8 +87,7 @@
           "foreground": "#011627",
           "background": "#d6deeb",
           "leading_diamond": "\ue0b6",
-          "trailing_diamond": "<transparent,#d6deeb>\ue0b2</>",
-          "template": "\uf489 {{ .Name }}"
+          "trailing_diamond": "<transparent,#d6deeb>\ue0b2</>"
         },
         {
           "type": "python",
@@ -101,8 +95,7 @@
           "foreground": "#FFE873",
           "background": "#306998",
           "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,#306998>\ue0b2</>",
-          "template": "\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}"
+          "trailing_diamond": "<transparent,#306998>\ue0b2</>"
         },
         {
           "type": "julia",
@@ -110,8 +103,7 @@
           "foreground": "#359a25",
           "background": "#945bb3",
           "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,#945bb3>\ue0b2</>",
-          "template": "<#ca3c34>\ue624</> {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}"
+          "trailing_diamond": "<transparent,#945bb3>\ue0b2</>"
         },
         {
           "type": "aws",
@@ -119,8 +111,7 @@
           "foreground": "#faa029",
           "background": "#565656",
           "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,#565656>\ue0b2</>",
-          "template": "\ue7ad {{.Profile}}{{if .Region}}@{{.Region}}{{end}}"
+          "trailing_diamond": "<transparent,#565656>\ue0b2</>"
         },
         {
           "type": "kubectl",
@@ -128,8 +119,7 @@
           "foreground": "#ffffff",
           "background": "#316ce4",
           "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,#316ce4>\ue0b2</>",
-          "template": "\ufd31 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}"
+          "trailing_diamond": "<transparent,#316ce4>\ue0b2</>"
         },
         {
           "type": "time",
@@ -138,7 +128,6 @@
           "background": "#234d70",
           "leading_diamond": "\ue0b2",
           "trailing_diamond": "\ue0b4",
-          "template": "\uf64f {{ .CurrentDate | date .Format }}",
           "properties": {
             "time_format": "15:04:05"
           }
@@ -152,8 +141,7 @@
         {
           "type": "text",
           "style": "plain",
-          "foreground": "#21c7a8",
-          "template": "\u2570\u2500"
+          "foreground": "#21c7a8"
         },
         {
           "type": "exit",
@@ -162,7 +150,6 @@
           "foreground_templates": [
             "{{ if gt .Code 0 }}#ef5350{{ end }}"
           ],
-          "template": "\ue285\ue285 ",
           "properties": {
             "always_enabled": true
           }
