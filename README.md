@@ -5,7 +5,7 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 scoop install git
 scoop bucket add extras
 scoop bucket add nerd-fonts
-scoop install gsudo neovim posh-git gh fzf make terminal-icons https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json psreadline psfzf
+scoop install 7zip gh grep gsudo neovim oh-my-posh posh-git powertoys psfzf psreadline pyenv terminal-icons
 
 # Oh my posh
 oh-my-posh font install CascadiaCode 
