@@ -63,3 +63,7 @@ function touch {
     New-Item -Type File -Path $Path
   }
 }
+
+function firefox ([string]$PathOrUrl) {
+  Start-Process -FilePath 'C:\Program Files\Mozilla Firefox\firefox.exe' $PathOrUrl
+}
