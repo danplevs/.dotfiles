@@ -17,6 +17,12 @@ $env:POSH_GIT_ENABLED = $true
 $env:PATH += ";$env:USERPROFILE\scoop\shims"
 $env:PSModulePath += ";$env:USERPROFILE\scoop\modules"
 
+# Miniconda
+$env:PATH += ";$env:USERPROFILE\miniconda3;$ENV:USERPROFILE\miniconda3\Scripts"
+
+#Gnuplot
+$env:PATH += "$env:USERPROFILE\scoop\shims\gnuplot.exe"
+
 # Disable pwsh venv
 $env:VIRTUAL_ENV_DISABLE_PROMPT = 1
 

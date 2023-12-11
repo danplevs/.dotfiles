@@ -1,0 +1,192 @@
+{
+    "apps": [
+        {
+            "Name": "7zip",
+            "Source": "main",
+            "Version": "23.01",
+            "Updated": "2023-11-15T16:02:33.4657869-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "bitwarden",
+            "Source": "extras",
+            "Version": "2023.12.0",
+            "Updated": "2023-12-11T16:59:20.8269223-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "blender",
+            "Source": "extras",
+            "Version": "4.0.2",
+            "Updated": "2023-12-11T16:26:07.3944965-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "dark",
+            "Source": "main",
+            "Version": "3.11.2",
+            "Updated": "2023-11-15T16:05:17.2639766-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "discord",
+            "Source": "extras",
+            "Version": "1.0.9022-16",
+            "Updated": "2023-12-11T17:11:38.5296491-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "f.lux",
+            "Source": "extras",
+            "Version": "4.124",
+            "Updated": "2023-12-11T17:06:19.2376007-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "fzf",
+            "Source": "main",
+            "Version": "0.44.0",
+            "Updated": "2023-11-15T16:04:52.2202647-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "gh",
+            "Source": "main",
+            "Version": "2.39.1",
+            "Updated": "2023-11-15T16:04:55.1070146-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "git",
+            "Source": "main",
+            "Version": "2.42.0.2",
+            "Updated": "2023-11-15T16:02:51.1268929-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "gnuplot",
+            "Source": "main",
+            "Version": "5.4.8",
+            "Updated": "2023-12-10T19:08:20.2793225-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "googlechrome",
+            "Source": "extras",
+            "Version": "120.0.6099.71",
+            "Updated": "2023-12-11T16:29:43.1399659-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "grep",
+            "Source": "main",
+            "Version": "3.11",
+            "Updated": "2023-11-15T16:04:56.7936388-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "gsudo",
+            "Source": "main",
+            "Version": "2.4.0",
+            "Updated": "2023-11-15T16:04:58.9919728-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "neovim",
+            "Source": "main",
+            "Version": "0.9.4",
+            "Updated": "2023-11-15T16:05:10.0745547-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "notepadplusplus",
+            "Source": "extras",
+            "Version": "8.6",
+            "Updated": "2023-12-11T11:22:12.4578963-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "oh-my-posh",
+            "Source": "main",
+            "Version": "19.2.1",
+            "Updated": "2023-12-08T16:42:57.409778-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "pipx",
+            "Source": "main",
+            "Version": "1.3.3",
+            "Updated": "2023-12-11T17:37:55.7478202-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "posh-git",
+            "Source": "extras",
+            "Version": "1.1.0",
+            "Updated": "2023-11-15T16:05:14.9076084-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "powertoys",
+            "Source": "extras",
+            "Version": "0.75.1",
+            "Updated": "2023-11-15T16:06:02.7195235-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "psfzf",
+            "Source": "extras",
+            "Version": "2.5.19",
+            "Updated": "2023-11-15T16:06:03.3540813-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "psreadline",
+            "Source": "extras",
+            "Version": "2.3.4",
+            "Updated": "2023-11-15T16:06:03.5400235-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "terminal-icons",
+            "Source": "extras",
+            "Version": "0.11.0",
+            "Updated": "2023-11-15T16:06:05.6359348-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "vscode",
+            "Source": "extras",
+            "Version": "1.85.0",
+            "Updated": "2023-12-11T16:33:28.9864991-03:00",
+            "Info": ""
+        },
+        {
+            "Name": "winrar",
+            "Source": "extras",
+            "Version": "6.24",
+            "Updated": "2023-12-11T16:54:47.1211316-03:00",
+            "Info": ""
+        }
+    ],
+    "buckets": [
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2023-12-11T13:28:39-03:00",
+            "Manifests": 1889
+        },
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2023-12-11T15:05:56-03:00",
+            "Manifests": 1266
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": "2023-12-10T08:13:37-03:00",
+            "Manifests": 327
+        }
+    ]
+}
