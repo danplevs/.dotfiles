@@ -1,240 +1,267 @@
 {
-    "apps": [
-        {
-            "Source": "main",
-            "Version": "23.01",
-            "Updated": "2023-12-14T10:34:25.9817042-03:00",
-            "Info": "",
-            "Name": "7zip"
-        },
-        {
-            "Source": "extras",
-            "Version": "2023.12.0",
-            "Updated": "2023-12-14T10:36:32.8183517-03:00",
-            "Info": "",
-            "Name": "bitwarden"
-        },
-        {
-            "Source": "extras",
-            "Version": "4.0.2",
-            "Updated": "2023-12-14T10:47:09.4498614-03:00",
-            "Info": "",
-            "Name": "blender"
-        },
-        {
-            "Source": "main",
-            "Version": "3.11.2",
-            "Updated": "2023-12-14T10:36:49.6094645-03:00",
-            "Info": "",
-            "Name": "dark"
-        },
-        {
-            "Source": "extras",
-            "Version": "1.0.9028-17",
-            "Updated": "2023-12-30T13:51:12.0619784-03:00",
-            "Info": "",
-            "Name": "discord"
-        },
-        {
-            "Source": "extras",
-            "Version": "4.130",
-            "Updated": "2023-12-14T10:36:57.9279071-03:00",
-            "Info": "",
-            "Name": "f.lux"
-        },
-        {
-            "Source": "main",
-            "Version": "0.44.1",
-            "Updated": "2023-12-14T10:36:58.6535221-03:00",
-            "Info": "",
-            "Name": "fzf"
-        },
-        {
-            "Source": "main",
-            "Version": "2.40.1",
-            "Updated": "2023-12-14T10:36:59.8522214-03:00",
-            "Info": "",
-            "Name": "gh"
-        },
-        {
-            "Source": "main",
-            "Version": "2.43.0",
-            "Updated": "2023-12-14T10:34:39.2001262-03:00",
-            "Info": "",
-            "Name": "git"
-        },
-        {
-            "Source": "main",
-            "Version": "5.4.8",
-            "Updated": "2023-12-14T10:37:05.6736052-03:00",
-            "Info": "",
-            "Name": "gnuplot"
-        },
-        {
-            "Source": "main",
-            "Version": "3.11",
-            "Updated": "2023-12-14T10:37:16.6409548-03:00",
-            "Info": "",
-            "Name": "grep"
-        },
-        {
-            "Source": "main",
-            "Version": "2.4.0",
-            "Updated": "2023-12-14T10:37:18.5450265-03:00",
-            "Info": "",
-            "Name": "gsudo"
-        },
-        {
-            "Source": "main",
-            "Version": "0.50",
-            "Updated": "2023-12-28T17:17:43.6934328-03:00",
-            "Info": "",
-            "Name": "innounp"
-        },
-        {
-            "Source": "extras",
-            "Version": "2.0.7.4",
-            "Updated": "2023-12-28T17:18:51.3119177-03:00",
-            "Info": "",
-            "Name": "lively"
-        },
-        {
-            "Source": "main",
-            "Version": "0.9.4",
-            "Updated": "2023-12-14T10:37:24.296353-03:00",
-            "Info": "",
-            "Name": "neovim"
-        },
-        {
-            "Source": "extras",
-            "Version": "8.6",
-            "Updated": "2023-12-14T10:37:25.8035365-03:00",
-            "Info": "",
-            "Name": "notepadplusplus"
-        },
-        {
-            "Source": "main",
-            "Version": "19.2.1",
-            "Updated": "2023-12-14T10:37:28.1834691-03:00",
-            "Info": "",
-            "Name": "oh-my-posh"
-        },
-        {
-            "Source": "main",
-            "Version": "1.3.3",
-            "Updated": "2023-12-14T10:37:28.8245254-03:00",
-            "Info": "",
-            "Name": "pipx"
-        },
-        {
-            "Source": "extras",
-            "Version": "1.1.0",
-            "Updated": "2023-12-14T10:37:29.1601705-03:00",
-            "Info": "",
-            "Name": "posh-git"
-        },
-        {
-            "Source": "extras",
-            "Version": "0.76.2",
-            "Updated": "2023-12-14T10:38:07.7188338-03:00",
-            "Info": "",
-            "Name": "powertoys"
-        },
-        {
-            "Source": "extras",
-            "Version": "2.5.19",
-            "Updated": "2023-12-14T10:38:08.3467501-03:00",
-            "Info": "",
-            "Name": "psfzf"
-        },
-        {
-            "Source": "extras",
-            "Version": "2.3.4",
-            "Updated": "2023-12-14T10:38:08.9774775-03:00",
-            "Info": "",
-            "Name": "psreadline"
-        },
-        {
-            "Source": "extras",
-            "Version": "2.7",
-            "Updated": "2023-12-14T10:38:21.0079936-03:00",
-            "Info": "",
-            "Name": "scidavis"
-        },
-        {
-            "Source": "games",
-            "Version": "nightly-20231227",
-            "Updated": "2023-12-27T20:28:43.724738-03:00",
-            "Info": "",
-            "Name": "steam"
-        },
-        {
-            "Source": "extras",
-            "Version": "3.5.2",
-            "Updated": "2023-12-28T21:35:00.2076084-03:00",
-            "Info": "",
-            "Name": "sumatrapdf"
-        },
-        {
-            "Source": "extras",
-            "Version": "0.11.0",
-            "Updated": "2023-12-14T10:38:21.2280633-03:00",
-            "Info": "",
-            "Name": "terminal-icons"
-        },
-        {
-            "Source": "extras",
-            "Version": "14.38.33130.0",
-            "Updated": "2023-12-17T12:53:14.0002695-03:00",
-            "Info": "",
-            "Name": "vcredist2022"
-        },
-        {
-            "Source": "extras",
-            "Version": "1.85.1",
-            "Updated": "2023-12-14T10:38:31.3437583-03:00",
-            "Info": "",
-            "Name": "vscode"
-        },
-        {
-            "Source": "extras",
-            "Version": "8.0.0",
-            "Updated": "2023-12-28T20:17:15.8055183-03:00",
-            "Info": "",
-            "Name": "windowsdesktop-runtime"
-        },
-        {
-            "Source": "extras",
-            "Version": "6.24",
-            "Updated": "2023-12-14T10:38:39.4713543-03:00",
-            "Info": "",
-            "Name": "winrar"
-        }
-    ],
     "buckets": [
-        {
-            "Name": "extras",
-            "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2023-12-30T13:26:15-03:00",
-            "Manifests": 1892
-        },
-        {
-            "Name": "games",
-            "Source": "https://github.com/Calinou/scoop-games",
-            "Updated": "2023-12-30T13:27:56-03:00",
-            "Manifests": 294
-        },
         {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2023-12-30T13:27:07-03:00",
-            "Manifests": 1268
+            "Updated": "2025-03-05T13:31:39-03:00",
+            "Manifests": 1386
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2025-03-05T13:33:49-03:00",
+            "Manifests": 2137
+        },
+        {
+            "Name": "sysinternals",
+            "Source": "https://github.com/niheaven/scoop-sysinternals",
+            "Updated": "2025-02-13T22:55:14-03:00",
+            "Manifests": 75
         },
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
-            "Updated": "2023-12-14T10:23:36-03:00",
-            "Manifests": 327
+            "Updated": "2025-03-03T07:25:17-03:00",
+            "Manifests": 360
+        },
+        {
+            "Name": "games",
+            "Source": "https://github.com/Calinou/scoop-games",
+            "Updated": "2025-03-05T13:30:34-03:00",
+            "Manifests": 339
+        }
+    ],
+    "apps": [
+        {
+            "Version": "24.09",
+            "Info": "",
+            "Source": "main",
+            "Name": "7zip",
+            "Updated": "2025-02-23T13:06:18.8300305-03:00"
+        },
+        {
+            "Version": "19.00",
+            "Info": "",
+            "Source": "main",
+            "Name": "7zip19.00-helper",
+            "Updated": "2024-10-29T19:46:32.602156-03:00"
+        },
+        {
+            "Version": "2025.2.0",
+            "Info": "",
+            "Source": "extras",
+            "Name": "bitwarden",
+            "Updated": "2025-02-23T13:06:47.0383541-03:00"
+        },
+        {
+            "Version": "4.3.2",
+            "Info": "",
+            "Source": "extras",
+            "Name": "blender",
+            "Updated": "2025-02-23T13:08:47.2326441-03:00"
+        },
+        {
+            "Version": "3.14",
+            "Info": "",
+            "Source": "main",
+            "Name": "dark",
+            "Updated": "2025-02-23T13:08:49.7819467-03:00"
+        },
+        {
+            "Version": "4.134",
+            "Info": "",
+            "Source": "extras",
+            "Name": "f.lux",
+            "Updated": "2025-02-23T13:08:52.7416269-03:00"
+        },
+        {
+            "Version": "0.60.2",
+            "Info": "",
+            "Source": "main",
+            "Name": "fzf",
+            "Updated": "2025-02-23T13:08:56.6144867-03:00"
+        },
+        {
+            "Version": "2.67.0",
+            "Info": "",
+            "Source": "main",
+            "Name": "gh",
+            "Updated": "2025-02-23T13:09:01.5726567-03:00"
+        },
+        {
+            "Version": "2.48.1",
+            "Info": "",
+            "Source": "main",
+            "Name": "git",
+            "Updated": "2025-02-23T13:09:45.040785-03:00"
+        },
+        {
+            "Version": "6.0.2",
+            "Info": "",
+            "Source": "main",
+            "Name": "gnuplot",
+            "Updated": "2025-02-23T13:11:12.8249591-03:00"
+        },
+        {
+            "Version": "3.11",
+            "Info": "",
+            "Source": "main",
+            "Name": "grep",
+            "Updated": "2023-12-14T10:37:16.6409548-03:00"
+        },
+        {
+            "Version": "2.5.1",
+            "Info": "",
+            "Source": "main",
+            "Name": "gsudo",
+            "Updated": "2025-02-23T13:11:18.7111783-03:00"
+        },
+        {
+            "Version": "2.64.1",
+            "Info": "",
+            "Source": "main",
+            "Name": "innounp",
+            "Updated": "2025-02-23T13:11:24.9682551-03:00"
+        },
+        {
+            "Version": "2.1.0.8",
+            "Info": "",
+            "Source": "extras",
+            "Name": "lively",
+            "Updated": "2025-02-23T13:13:06.1330247-03:00"
+        },
+        {
+            "Version": "24.1",
+            "Info": "",
+            "Source": "main",
+            "Name": "miktex",
+            "Updated": "2024-02-24T22:35:46.8785014-03:00"
+        },
+        {
+            "Version": "0.10.4",
+            "Info": "",
+            "Source": "main",
+            "Name": "neovim",
+            "Updated": "2025-02-23T13:13:18.4194025-03:00"
+        },
+        {
+            "Version": "8.7.7",
+            "Info": "",
+            "Source": "extras",
+            "Name": "notepadplusplus",
+            "Updated": "2025-02-23T13:13:22.714725-03:00"
+        },
+        {
+            "Version": "24.19.0",
+            "Info": "",
+            "Source": "main",
+            "Name": "oh-my-posh",
+            "Updated": "2025-02-23T13:13:29.7347667-03:00"
+        },
+        {
+            "Version": "3.4.1",
+            "Info": "",
+            "Source": "main",
+            "Name": "openssl",
+            "Updated": "2025-02-23T13:18:35.4077549-03:00"
+        },
+        {
+            "Version": "5.40.0.1",
+            "Info": "",
+            "Source": "main",
+            "Name": "perl",
+            "Updated": "2025-02-23T13:21:04.1448007-03:00"
+        },
+        {
+            "Version": "1.7.1",
+            "Info": "",
+            "Source": "main",
+            "Name": "pipx",
+            "Updated": "2025-02-23T13:21:06.5833845-03:00"
+        },
+        {
+            "Version": "1.1.0",
+            "Info": "",
+            "Source": "extras",
+            "Name": "posh-git",
+            "Updated": "2023-12-14T10:37:29.1601705-03:00"
+        },
+        {
+            "Version": "2.6.7",
+            "Info": "",
+            "Source": "extras",
+            "Name": "psfzf",
+            "Updated": "2025-02-23T13:21:08.9102363-03:00"
+        },
+        {
+            "Version": "2.3.6",
+            "Info": "",
+            "Source": "extras",
+            "Name": "psreadline",
+            "Updated": "2025-02-23T13:21:10.4841473-03:00"
+        },
+        {
+            "Version": "2.7",
+            "Info": "",
+            "Source": "extras",
+            "Name": "scidavis",
+            "Updated": "2023-12-14T10:38:21.0079936-03:00"
+        },
+        {
+            "Version": "2.05",
+            "Info": "",
+            "Source": "sysinternals",
+            "Name": "sdelete",
+            "Updated": "2025-03-05T14:57:31.8345107-03:00"
+        },
+        {
+            "Version": "nightly-20231227",
+            "Info": "",
+            "Source": "games",
+            "Name": "steam",
+            "Updated": "2023-12-27T20:28:43.724738-03:00"
+        },
+        {
+            "Version": "3.5.2",
+            "Info": "",
+            "Source": "extras",
+            "Name": "sumatrapdf",
+            "Updated": "2023-12-28T21:35:00.2076084-03:00"
+        },
+        {
+            "Version": "0.11.0",
+            "Info": "",
+            "Source": "extras",
+            "Name": "terminal-icons",
+            "Updated": "2023-12-14T10:38:21.2280633-03:00"
+        },
+        {
+            "Version": "1.10.5",
+            "Info": "",
+            "Source": "main",
+            "Name": "terraform",
+            "Updated": "2025-02-23T13:21:17.7960643-03:00"
+        },
+        {
+            "Version": "14.42.34438.0",
+            "Info": "",
+            "Source": "extras",
+            "Name": "vcredist2022",
+            "Updated": "2025-02-23T13:23:39.8461731-03:00"
+        },
+        {
+            "Version": "1.97.2",
+            "Info": "",
+            "Source": "extras",
+            "Name": "vscode",
+            "Updated": "2025-02-23T13:24:14.3923287-03:00"
+        },
+        {
+            "Version": "7.10",
+            "Info": "",
+            "Source": "extras",
+            "Name": "winrar",
+            "Updated": "2025-02-23T13:24:44.3895493-03:00"
         }
     ]
 }
