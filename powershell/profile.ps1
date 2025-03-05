@@ -52,6 +52,8 @@ Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 $env:PATH += ";$env:USERPROFILE\.dotfiles\install"
 $env:PATH += ";$env:USERPROFILE\.dotfiles\utils"
 
+
+
 function which ($command) {
   Get-Command -Name $command -ErrorAction SilentlyContinue |
     Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
